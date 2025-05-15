@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Our Services - Felix Projects</title>
+  <title>Felix Projects - Welding & LPG Services</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -15,7 +15,7 @@
     header {
       background: #c53030;
       color: #fff;
-      padding: 20px;
+      padding: 30px 20px;
       text-align: center;
     }
 
@@ -33,7 +33,7 @@
 
     .services-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 20px;
     }
 
@@ -41,13 +41,22 @@
       background: white;
       border: 1px solid #ddd;
       border-radius: 8px;
-      padding: 20px;
+      padding: 15px;
       transition: transform 0.3s ease;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     }
 
     .service-card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-image {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-bottom: 15px;
     }
 
     .service-title {
@@ -65,8 +74,8 @@
       background: #c53030;
       color: white;
       text-align: center;
-      padding: 15px 0;
-      margin-top: 40px;
+      padding: 20px 0;
+      margin-top: 50px;
     }
   </style>
 </head>
@@ -74,40 +83,48 @@
 
   <header>
     <h1>Felix Projects</h1>
+    <p>Reliable Welding & LPG Refill Services</p>
   </header>
 
   <div class="container">
     <h2>Our Services</h2>
     <div class="services-grid">
+
       <div class="service-card">
+        <img src="tigweld.jpg" alt="Custom Fabrication" class="service-image">
         <div class="service-title">Custom Fabrication</div>
-        <p class="service-desc">Precision-made metal components designed to meet your exact specifications.</p>
+        <p class="service-desc">Precision-made metal components tailored to your project needs.</p>
       </div>
 
       <div class="service-card">
+        <img src="weld.jpg" alt="Metal Repairs" class="service-image">
         <div class="service-title">Metal Repairs</div>
-        <p class="service-desc">Professional metalwork repair for machinery, structures, and household items.</p>
+        <p class="service-desc">Expert repairs for machinery, structures, and metal parts.</p>
       </div>
 
       <div class="service-card">
+        <img src="robot.jpg" alt="Structural Welding" class="service-image">
         <div class="service-title">Structural Welding</div>
-        <p class="service-desc">Safe, certified welding for structural steel frames, supports, and reinforcements.</p>
+        <p class="service-desc">Safe and certified welding for buildings, supports, and frameworks.</p>
       </div>
 
       <div class="service-card">
+        <img src="homegas.jpg" alt="Metal Joining" class="service-image">
         <div class="service-title">Metal Joining & Assembly</div>
-        <p class="service-desc">Accurate joining and fitting of metal parts for both industrial and custom projects.</p>
+        <p class="service-desc">Professional joining and fitting of metal parts and structures.</p>
       </div>
 
       <div class="service-card">
+        <img src="refill.jpg" alt="LPG Refill" class="service-image">
         <div class="service-title">LPG Gas Refill (9kg–19kg)</div>
-        <p class="service-desc">Reliable LPG gas refilling for domestic and commercial cylinders (9kg to 19kg).</p>
+        <p class="service-desc">Fast, safe LPG gas cylinder refilling from 9kg up to 19kg.</p>
       </div>
+
     </div>
   </div>
 
   <footer>
-    &copy; 2025 Felix Projects Co. | All rights reserved
+    &copy; 2025 Felix Projects | All rights reserved
   </footer>
 
 </body>
